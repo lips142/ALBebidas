@@ -1,0 +1,158 @@
+@keyframes animacao{
+    from{
+        background: white;
+    }
+    to{
+        background:#f7b600 ;
+
+        }
+    }
+@keyframes trocadecor{
+    from{
+        background:#f7b600
+    }
+    to{
+        background: black;
+    }
+}
+
+*{
+    margin:0;
+    padding:0;
+    
+}
+
+body{
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background:#f0deaf;
+}
+                                                /**layout**/
+
+#area-principal{
+    background:white;
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+    
+}
+#area-postagens,#area-principal{
+    background: #f0deaf;
+    
+}   
+#area-postagens{
+    background:#f0deaf;
+    width: 660px;
+    float: left;
+  
+}
+#area-lateral{
+    background:#f7b600;
+    width: 240px;
+    float:right;
+    padding: 10px;
+    animation: animacao;
+    animation-duration: 10s;
+}
+
+#cabecalho{
+        background-color:#f7b600;
+        padding:15px;
+        text-align: center;  
+        animation: animacao;
+        animation-duration: 10s;
+}
+
+#logomarca,#menu{
+        padding: 10px;
+
+}
+#rodape{
+    clear: both;
+    background-color: #f7b600;
+    text-align: center;
+    padding: 10px;
+}
+       
+
+
+                                            /**formatação do menu**/
+ a{
+ text-decoration: none;
+ }
+                                            
+ #cabecalho a:link, #cabecalho a:visited{
+  color:rgb(68, 67, 67);
+  padding: 8px 12px;
+
+   }
+
+  a:hover{
+     color:orange;
+      background: rgb(49, 48, 48);
+}
+
+a{
+    text-decoration:none;
+    
+}
+
+#cabecalho a:link, #cabecalho a:visited{
+                background-position: 0%;
+                   color:rgb(241, 63, 63);
+                    padding: 8px 12px;
+}
+a:hover{
+    color:orange;
+    background: #f0deaf;
+}
+/**formatações em geral**/
+
+h1{
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+
+h2{
+    color:#030303
+}
+.branco{
+    color:rgb(243, 242, 242);
+}
+.data-postagem{
+    font-size: 0.8em;
+    border-bottom:1px solid #f0deaf;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display:block;
+}
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+    background:#f0deaf;
+
+}
+
+.conteudo-lateral {
+    background: #f7b600;
+
+}
+
+#area-links{
+    background:#f0deaf;
+    width: 200px;
+    float: inline;
+    padding: 10px;
+    color: #f7b600;
+    margin: 40px;
+}
+
+#redes-sociais{
+
+    float: left;
+    background: none;
+}
+
+.info{
+    color:rgb(114, 73, 58)
+}
